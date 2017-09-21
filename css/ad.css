@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#ad {
+	position: relative;
+}
+#ad img, #ad .adBody {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	right: 0;
+	top: 0;
+}
+#ad img {
+	z-index: 10;
+}
+#ad .adBody {
+	overflow: hidden;
+	z-index: 9;
+	background: url(http://120.107.152.116/db102/S0161044/JIATYSHOP/sourceImages/adBody.gif) no-repeat right top;
+}

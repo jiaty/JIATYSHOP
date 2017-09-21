@@ -1,0 +1,33 @@
+@charset "utf-8";
+.prolist {
+	float: left;
+	height: 300px;
+	width: 300px;
+	clear: none;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.problock {
+	 width:250px; min-height:350px; float: left; margin: 0px 65px 20px 0px;
+}
+.problock img {
+	display: block;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.name{
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family: "微軟正黑體";
+}
+.name a {
+	color: #560001;
+	text-decoration: none;
+}

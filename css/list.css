@@ -1,0 +1,34 @@
+#hmenu {
+	margin: 0px;
+	padding: 0;
+	list-style: none;
+	
+	z-index: 6;
+	margin-top: 60px;
+	float: right;
+}
+#hmenu li {
+	z-index: 6;
+	float: right;
+}
+#hmenu li a {
+	display: block;
+	height: 16px; /* 圖片的高/2 */
+	line-height: 16px;	/* ie suck */
+	text-indent: -9999px;
+}
+#hmenu a.v1 {
+	z-index: 6;
+	width:68px; /* 圖片的寬 */
+	background:url(http://120.107.152.116/db102/S0161044/JIATYSHOP/sourceImages/v1.gif) no-repeat 0 0;
+}
+#hmenu a.v2 {
+	z-index: 6;
+	width:67px; /* 圖片的寬 */
+	background:url(http://120.107.152.116/db102/S0161044/JIATYSHOP/sourceImages/v2.gif) no-repeat 0 0;
+}
+#hmenu a.v3 {
+	z-index: 6;
+	width:67px; /* 圖片的寬 */
+	background:url(http://120.107.152.116/db102/S0161044/JIATYSHOP/sourceImages/v3.gif) no-repeat 0 0;
+}

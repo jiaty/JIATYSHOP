@@ -1,0 +1,68 @@
+#menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: fixed;
+	margin-top: 45px;
+	width: 800px;
+	float: left;
+	background: #560001;
+	background-color: #560001;
+	z-index: 1;
+	
+}
+#menu li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	border-right: 1px solid #999;
+}
+#menu li a {
+	padding: 10px 15px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+#menu li ul {
+	margin: 0;
+	padding: 15px 0;
+	list-style: none;
+	float: left;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	color: #fff;
+	background: rgba(55,0,0,0.80) no-repeat bottom;
+	display: none;
+}
+#menu li ul li { border-right: 1px solid #fff; }
+#menu li ul li a { display: inline; }
+#menu li ul li a:hover { text-decoration: underline; }
+
+
+#hmenu li {
+	z-index: 6;
+	float: right;
+	padding: 0 5px;
+}
+#hmenu li a {
+	display: block;
+	height: 16px; /* 圖片的高/2 */
+	line-height: 16px;	/* ie suck */
+	text-indent: -9999px;
+}
+#hmenu a.v1 {
+	z-index: 6;
+	width:68px; /* 圖片的寬 */
+	background:url(http://120.107.152.116/db102/S0161044/JIATYSHOP/sourceImages/v1.gif) no-repeat 0 0;
+}
+#hmenu a.v2 {
+	z-index: 6;
+	width:67px; /* 圖片的寬 */
+	background:url(http://120.107.152.116/db102/S0161044/JIATYSHOP/sourceImages/v2.gif) no-repeat 0 0;
+}
+#hmenu a.v3 {
+	z-index: 6;
+	width:67px; /* 圖片的寬 */
+	background:url(http://120.107.152.116/db102/S0161044/JIATYSHOP/sourceImages/v3.gif) no-repeat 0 0;
+}
